@@ -1,0 +1,170 @@
+/* Reset dasar */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(50deg, #2c3e50, #BCCCDC) ;
+    color: black;
+}
+
+/* Kontainer global */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('https://wallpapercave.com/wp/wp3066953.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+    background: #2c3e50;
+    color: #F0BB78;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #F0BB78;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.9s;
+}
+
+.navbar a:hover {
+    color: #e74c3c;
+}
+
+/* Section Style */
+.section {
+    padding: 40px;
+    margin: 20px 0;
+    background: #BCCCDC;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+.section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.section p,
+.section ul {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.section ul li {
+    margin: 20px;
+    font-weight: bold;
+    text-align: left;
+    transition: color 0.5s;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        height: 200px;
+        padding-top: 60px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .gallery img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.Haircut_List{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Haircut{
+    width: 20%;
+    margin: 0 auto;    
+}
+
+.Haircut img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.Haircut p{
+    font-family: 'commit sans ms';
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.About h2 {
+    text-align: center;
+}
+
+.Service h2 {
+    text-align: left;
+}
